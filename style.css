@@ -172,6 +172,7 @@ p {
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
+    z-index: 1002;
   }
 
   .navigation {
@@ -182,6 +183,7 @@ p {
     background-color: var(--bg-secondary);
     border-bottom: 1px solid var(--border-subtle);
     display: none;
+    z-index: 1001;
   }
 
   .navigation.active {
