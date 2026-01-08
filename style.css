@@ -70,6 +70,7 @@ ol {
 
   --accent-primary: #38bdf8;
   --accent-hover: #0ea5e9;
+  --accent-soft: #05354b;
 
   /* TYPOGRAPHY */
   --font-primary: "Inter", system-ui, sans-serif;
@@ -424,7 +425,9 @@ p {
   font-size: var(--fs-sm);
   font-weight: var(--fw-medium);
   color: var(--accent-primary);
+
 }
+
 
 .project-link:hover {
   text-decoration: underline;
