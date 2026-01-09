@@ -328,6 +328,23 @@
                 console.log("Menu toggled");
             });
         });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const revealElements = document.querySelectorAll('.scroll-reveal');
+
+            const revealOnScroll = () => {
+                revealElements.forEach((el) => {
+                    const rect = el.getBoundingClientRect();
+                    if (rect.top < window.innerHeight && rect.bottom > 0) {
+                        el.classList.add('visible');
+                    }
+                });
+            };
+
+            window.addEventListener('scroll', revealOnScroll);
+            revealOnScroll(); // Trigger on load
+        });
+
     </script>
 
 </body>
