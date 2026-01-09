@@ -56,10 +56,10 @@ ol {
 
 :root {
   /* COLORS */
-  --bg-main: #0f172a;
+  --bg-main: #08090c;
   --bg-secondary: #020617;
   --bg-card: rgba(2, 6, 23, 0.85);
-  --bg-navbar: rgba(2, 6, 23, 0.8);
+  --bg-navbar: rgba(4, 8, 27, 0.8);
 
   --border-subtle: rgba(255, 255, 255, 0.06);
   --border-card: rgba(255, 255, 255, 0.08);
@@ -157,6 +157,8 @@ p {
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border-subtle);
   z-index: 100;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 /* ========================= */

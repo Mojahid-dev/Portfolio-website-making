@@ -49,6 +49,24 @@ Below is a preview of the website interface.
 
 ---
 
+
+
+
+## 📁 Project Structure
+
+```text
+├── index.html
+├── style.css
+├── assets/
+│   ├── images/
+│   │   ├── hero.jpg
+│   │   ├── preview.png
+│   │   ├── expense-tracker.jpg
+│   │   ├── portfolio.jpg
+│   │   └── taskmanagement.jpg
+│   └── icons/
+```
+
 ## 📌 Purpose of This Project
 
 This project was created to serve as my personal portfolio website.  
@@ -63,6 +81,7 @@ The portfolio reflects my focus on:
 It is intended for internships, entry-level opportunities, and as a public demonstration of my development work.
 
 ---
+
 
 ## 👤 Author
 
@@ -89,20 +108,5 @@ However, the content, layout, and branding of this portfolio should not be copie
 This project was built using modern web standards and is inspired by clean design principles commonly used in professional developer portfolios.
 
 Thanks to the open-source community and web documentation resources that make learning and building accessible for everyone.
-
-
-## 📁 Project Structure
-
-```text
-├── index.html
-├── style.css
-├── assets/
-│   ├── images/
-│   │   ├── hero.jpg
-│   │   ├── preview.png
-│   │   ├── expense-tracker.jpg
-│   │   ├── portfolio.jpg
-│   │   └── taskmanagement.jpg
-│   └── icons/
 
 
